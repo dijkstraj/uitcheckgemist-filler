@@ -9,9 +9,8 @@
   "content_scripts": [
     {
       "matches": ["https://www.uitcheckgemist.nl/*"],
-      "js": [
-        "filler.js"
-      ]
+      "css": ["filler.css"],
+      "js": ["filler.js"]
     }
   ],
   "options_page": "options.html",
