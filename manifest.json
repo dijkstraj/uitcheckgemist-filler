@@ -3,6 +3,9 @@
   "name": "uitcheckgemist.nl filler",
   "description": "Fill out those numbers",
   "version": "0.1",
+  "background": {
+    "scripts": ["background.js"]
+  },
   "content_scripts": [
     {
       "matches": ["https://www.uitcheckgemist.nl/*"],
@@ -10,5 +13,9 @@
         "filler.js"
       ]
     }
+  ],
+  "options_page": "options.html",
+  "permissions": [
+    "storage"
   ]
 }
