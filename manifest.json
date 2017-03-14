@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "uitcheckgemist.nl filler",
+  "description": "Fill out those numbers",
+  "version": "0.1",
+  "content_scripts": [
+    {
+      "matches": ["https://www.uitcheckgemist.nl/*"],
+      "js": [
+        "filler.js"
+      ]
+    }
+  ]
+}
